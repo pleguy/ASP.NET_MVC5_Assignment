@@ -94,79 +94,79 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\jquery.mCustomScrollbar.min.css" />
-    <Content Include="Content\responsive.css" />
-    <Content Include="Content\style.css" />
-    <Content Include="Global.asax" />
-    <Content Include="images\banner.jpg" />
-    <Content Include="images\bg.jpg" />
-    <Content Include="images\Car_Images\Audi_a3.jpg" />
-    <Content Include="images\Car_Images\Audi_R8.jpg" />
-    <Content Include="images\Car_Images\Audi_Sedan.png" />
-    <Content Include="images\Car_Images\Audi_Van.jpg" />
-    <Content Include="images\Car_Images\BMW_i7.png" />
-    <Content Include="images\Car_Images\BMW_i8.jpg" />
-    <Content Include="images\Car_Images\BMW_Van.jpg" />
-    <Content Include="images\Car_Images\BMW_X5.png" />
-    <Content Include="images\Car_Images\Hundai_bayon.jpg" />
-    <Content Include="images\Car_Images\Hundai_Elantra.jpg" />
-    <Content Include="images\Car_Images\Hundai_i10.jpg" />
-    <Content Include="images\Car_Images\Hundai_i20.jpg" />
-    <Content Include="images\Car_Images\Hundai_kona.jpg" />
-    <Content Include="images\Car_Images\Hundai_Sport.jpg" />
-    <Content Include="images\Car_Images\Hundai_Tucson.jpg" />
-    <Content Include="images\Car_Images\Hundai_Van.jpg" />
-    <Content Include="images\car_img1.png" />
-    <Content Include="images\car_img2.png" />
-    <Content Include="images\car_img3.png" />
-    <Content Include="images\loading.gif" />
-    <Content Include="images\logo.png" />
-    <Content Include="Scripts\bootstrap.bundle.min.js" />
-    <Content Include="Scripts\custom.js" />
-    <Content Include="Scripts\jquery-3.0.0.min.js" />
-    <Content Include="Scripts\jquery.mCustomScrollbar.concat.min.js" />
-    <Content Include="Scripts\jquery.min.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\plugin.js" />
-    <Content Include="Scripts\popper.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Content\bootstrap.min.css" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Content\jquery.mCustomScrollbar.min.css" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Content\responsive.css" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Content\style.css" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Global.asax" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\banner.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\bg.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\Audi_a3.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\Audi_R8.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\Audi_Sedan.png" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\Audi_Van.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\BMW_i7.png" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\BMW_i8.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\BMW_Van.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\BMW_X5.png" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\Hundai_bayon.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\Hundai_Elantra.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\Hundai_i10.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\Hundai_i20.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\Hundai_kona.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\Hundai_Sport.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\Hundai_Tucson.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\Car_Images\Hundai_Van.jpg" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\car_img1.png" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\car_img2.png" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\car_img3.png" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\loading.gif" />
+    <Content Include="MVC.CarWebsite\CarWebsite\images\logo.png" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Scripts\bootstrap.bundle.min.js" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Scripts\custom.js" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Scripts\jquery-3.0.0.min.js" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Scripts\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Scripts\jquery.min.js" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Scripts\jquery.validate.js" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Scripts\plugin.js" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Scripts\popper.min.js" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Data\RentoDBContext.cs" />
-    <Compile Include="Global.asax.cs">
+    <Compile Include="MVC.CarWebsite\CarWebsite\App_Start\RouteConfig.cs" />
+    <Compile Include="MVC.CarWebsite\CarWebsite\Controllers\HomeController.cs" />
+    <Compile Include="MVC.CarWebsite\CarWebsite\Data\RentoDBContext.cs" />
+    <Compile Include="MVC.CarWebsite\CarWebsite\Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Car.cs" />
-    <Compile Include="Controllers\CarsController.cs" />
+    <Compile Include="MVC.CarWebsite\CarWebsite\Models\Car.cs" />
+    <Compile Include="MVC.CarWebsite\CarWebsite\Controllers\CarsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\web.config" />
-    <None Include="packages.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Cars\Create.cshtml" />
-    <Content Include="Views\Cars\Delete.cshtml" />
-    <Content Include="Views\Cars\Details.cshtml" />
-    <Content Include="Views\Cars\Edit.cshtml" />
-    <Content Include="Views\Cars\Index.cshtml" />
-    <Content Include="Views\Home\Car_List.cshtml" />
-    <Content Include="Views\Home\Car_Info.cshtml" />
-    <None Include="Web.Debug.config">
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\web.config" />
+    <None Include="MVC.CarWebsite\CarWebsite\packages.config" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\_ViewStart.cshtml" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\Shared\_Layout.cshtml" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\Home\Index.cshtml" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\Home\About.cshtml" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\Home\Contact.cshtml" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\Cars\Create.cshtml" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\Cars\Delete.cshtml" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\Cars\Details.cshtml" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\Cars\Edit.cshtml" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\Cars\Index.cshtml" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\Home\Car_List.cshtml" />
+    <Content Include="MVC.CarWebsite\CarWebsite\Views\Home\Car_Info.cshtml" />
+    <None Include="MVC.CarWebsite\CarWebsite\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <None Include="Web.Release.config">
+    <None Include="MVC.CarWebsite\CarWebsite\Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="MVC.CarWebsite\CarWebsite\App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
