@@ -1,0 +1,57 @@
+﻿
+@model Rento.Models.Car
+
+@{
+    ViewBag.Title = "Car_Info";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 p-0">
+            <img src="/images/Car_Images/@Model.CImage" class="img-fluid" alt="Car Image" style="width: 1500%; height: auto;">
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-4" style="color: darkred; font-weight: bold;">Maker:</dt>
+                <dd class="col-sm-8" style="font-weight: bold; color:black;">@Model.Maker</dd>
+
+                <dt class="col-sm-4" style="color: darkred; font-weight: bold;">Model:</dt>
+                <dd class="col-sm-8" style="font-weight: bold; color: black;">@Model.Model</dd>
+
+                <dt class="col-sm-4" style="color: darkred; font-weight: bold;">Year:</dt>
+                <dd class="col-sm-8" style="font-weight: bold; color: black;">@Model.Year</dd>
+
+                <dt class="col-sm-4" style="color: darkred; font-weight: bold;">Type:</dt>
+                <dd class="col-sm-8" style="font-weight: bold; color: black;">@Model.CType</dd>
+
+                <dt class="col-sm-4" style="color: darkred; font-weight: bold;">Price:</dt>
+                <dd class="col-sm-8" style="font-weight: bold; color: black;">$@Model.Price per day</dd>
+
+                <dt class="col-sm-4" style="color: darkred; font-weight: bold;">Reserved:</dt>
+                <dd class="col-sm-8">
+                    @if (Model.CAvailable)
+                    {
+                        <span class="text-success" style="font-weight: bold;">No, reserve it now</span>
+                        <div class="sign_btn"><a href="#">RESERVATION</a></div>
+                    }
+                    else
+                    {
+                        <span class="text-danger" style="font-weight: bold;">Yes, please try again later.</span>
+                    }
+                </dd>
+                <div class="text-center">
+                    @Html.ActionLink("Back to List", "Car_List", new { }, new { @class = "btn btn-outline-primary btn-lg" })
+                    @Html.ActionLink("Back to Home", "Index", "Home", new { }, new { @class = "btn btn-outline-primary btn-lg" })
+                </div>
+            </dl>
+        </div>                          
+    </div>
+</div>
+
+
+
+
+
+

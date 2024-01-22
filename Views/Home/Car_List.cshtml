@@ -1,0 +1,49 @@
+﻿
+
+@model IEnumerable<Rento.Models.Car>
+
+@{
+    ViewBag.Title = "Car_List";
+}
+
+<div class="container">
+    <h2 style="color:darkblue;">Explore Our Fleet</h2>
+    <div class="row">
+        @foreach (var car in Model)
+        {
+            <div class="col-md-12 mb-4">
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight:bold;"><strong>@car.Maker</strong> <strong>@car.Model</strong></h5>
+                                <p class="card-title" style="color: goldenrod; font-weight: bold;"> <strong>@car.Year</strong></p>
+                                <p class="card-text">
+                                    @if (car.CAvailable)
+                                    {
+                                        <span class="text-success" style="font-weight:bold;"><strong>Car is Available</strong></span>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-danger" style="font-weight:bold;"><strong>Car is not Available</strong></span>
+                                    }
+                                </p>
+                                <div class="text-center">
+                                    <img src="/images/Car_Images/@car.CImage" class="card-img" style="max-width: 200px; margin: -100px auto 10px;"  alt="Car Image">
+                                </div>
+                                <div class="col-md-4"></div>
+                                <div class="text-right" style="margin: -140px -110px 100px -110px">
+                                    <div class="sign_btn"><a href="@Url.Action("Car_Info", "Home", new { id = car.Id })" >Car Information</a></div>                                   
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
