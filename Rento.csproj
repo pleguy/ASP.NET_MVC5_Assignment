@@ -94,14 +94,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\animate.min.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\jquery-ui.css" />
     <Content Include="Content\jquery.mCustomScrollbar.min.css" />
-    <Content Include="Content\meanmenu.css" />
-    <Content Include="Content\nice-select.css" />
-    <Content Include="Content\normalize.css" />
-    <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\responsive.css" />
     <Content Include="Content\style.css" />
     <Content Include="Global.asax" />
